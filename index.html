@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang = "ru-RU">
+<head>
+  <link rel="icon" type="jpg" href="./img/fav.jpg"/>
+  <meta charset = "UTF-8">
+  <title>ПневмоАвто</title>
+ 
+   <link rel="stylesheet" href="./slick/slick.css">
+   <link rel="stylesheet" href="./slick/slick-theme.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/ajax-loader.gif">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+ <link rel="stylesheet" href="dist/design.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="dist/resp.css">
+	 </head>
+	 <body  data-spy="scroll" data-target=".navbar-nav" data-offset="50">
+<div class='thetop'></div>	 
+	 <div class="row">
+  <div class="col-sm"><a href="index.html"><h1 class="uplet logo"><span style="color:#00284d;">spark</span><span style="color:#0066ff;">auto</span></h1></a></div>
+  <div class="col-sm"><p class="servs" >Полный спектр пневматики для авто <br>Отправка в течении 24 часов по всей России</p></div>
+  <div class="col-sm-2" ><div class="num">8(800)333-77-88 <p class="address">Томск, ул.Мира 1</p></div></div>
+  <div class="col-sm"><button class="uplet mainbtn">оставить заявку &nbsp <span style="font-family:Geometria-Italic">24ч</span></button></div>
+</div> 
+	 <nav class="navbar1 ">
+	 	  <span class="uplet lines" ><i class="fas fa-bars"></i> меню</span>
+  <div class="overlay-content1">
+    <ul>
+    <li> <a class="uplet nav-link" href="#block2">дубликат</a></li>
+    <li><a class="uplet nav-link" href="#block3">оригинал</a></li>
+    <li>  <a class="uplet nav-link" href="#vin">заказ по vin</a></li>
+    <li> <a class="uplet nav-link" href="#photo">заказ по фото</a></li>
+    <li>  <a class="uplet nav-link" href="#garant">гарантии</a></li>
+    <li>    <a class="uplet nav-link" href="#payment">способы оплаты</a></li>
+    <li> <a class="uplet nav-link" href="#shipping">доставка</a></li>
+    <li> <a class="uplet nav-link" href="#partnership">партнерство</a></li>
+    <li><a class="uplet nav-link" href="#contacts">контакты</a></li>
+  </ul>
+  </div>
+
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="uplet nav-link" href="#block2">дубликат</a>
+    </li>
+    <li class="nav-item">
+      <a class="uplet nav-link" href="#block3">оригинал</a>
+    </li>
+    <li class="nav-item">
+      <a class="uplet nav-link" href="#vin">заказ по vin</a>
+    </li>
+       <li class="nav-item">
+      <a class="uplet nav-link" href="#photo">заказ по фото</a>
+    </li>
+	    <li class="nav-item">
+      <a class="uplet nav-link" href="#contacts">контакты</a>
+    </li>
+	        </ul>
+	<ul class="navbar-nav">
+	   <div class="subnav">
+	 <div class="uplet dropdown-btn" style="cursor:pointer">
+ <i class="fas fa-bars"></i>  все меню </div>
+   <div class="dropdown-container">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="uplet nav-link" href="#garant">гарантии</a>
+    </li>
+    <li class="nav-item">
+      <a class="uplet nav-link" href="#payment">способы оплаты</a>
+    </li>
+    <li class="nav-item">
+      <a class="uplet nav-link" href="#shipping">доставка</a>
+    </li>
+       <li class="nav-item">
+      <a class="uplet nav-link" href="#partnership">партнерство</a>
+    </li>
+	 </div>
+	</ul>
+  </div>
+  </ul>
+</nav>
+	 <div class="main-slider" id="main-sl">	  
+	 <h1 class="main-title">Купить блоки клапанов,<br> пневмобалоны, компрессора,<br> пневмостойки!</h1>
+	  <div class="row justify-content-center"  id="row1">
+  <div class="col-sm-3"><div class="gimg"><i class=" g-far far fa-registered"></i></div><div class="text"><p class="p1">
+Продаем оригинальные <br>   запчасти и дубликаты</p></div></div>
+  <div class="col-sm-3"><div class="gimg"><i class="g-far fas fa-shipping-fast"></i></div><div class="text">
+  <p class="p1">Отправка в Томск <br>  в течении 24 часов!</p></div></div>
+  <div class="col-sm-3" ><div class="gimg"><i class="g-far far fa-handshake"></i></div><div class="text">
+  <p class="p1">Если найдете дешевле, <br>  то мы уменьшим цену!</p></div></div>
+</div>
+<div class="container">
+  <ul class="list-unstyled slick-slider">
+    <li>  <div class="overlay"  onclick="buyerclick()">
+    <div class="text1">Запчасти для <br><span class="overlay-txt">Lexus</span></div>
+  </div> </li>
+    <li><div class="overlay">
+    <div class="text1">Запчасти для<br><span class="overlay-txt">Mitsubishi</span></div>
+  </div></li>
+    <li ><div class="overlay">
+    <div class="text1">Запчасти для<br><span class="overlay-txt">Land Rover</span></div>
+  </div></li>
+    <li class="active1"><div class="overlay" onclick="buyerclick()">
+    <div class="text1">Запчасти для<br><span class="overlay-txt">Lexus</span></div>
+  </div></li>
+    <li><div class="overlay">
+    <div class="text1">Запчасти для<br><span class="overlay-txt">Mitsubishi</span></div>
+  </div></li>
+    <li><div class="overlay">
+    <div class="text1">Запчасти для<br><span class="overlay-txt">Subaru</span></div>
+  </div></li>
+    <li><div class="overlay">
+    <div class="text1">Запчасти для<br><span class="overlay-txt">Lexus</span></div>
+  </div></li>
+    <li><div class="overlay">
+    <div class="text1">Запчасти для<br><span class="overlay-txt">Land Rover</span></div>
+  </div></li>
+  </ul>
+</div>
+ </div>
+	   <div id="buyer_form">
+	  <h2  class="uplet capt">lexus</h2>
+	<div class="step2 d-flex flex-row">
+		   <div class="st1 p-2"><span class="uplet steps" >шаг 2 </span><br>
+	<span class="direct">Отлично! Первый шаг пройден!<br> Теперь выберите модель вашего автомобиля:</span></div>
+  <div class="st2 p-2"><div class="icon"><i class="st-fas fas fa-percent"></i></div><div class="text"><span class="uplet sale">скидка 1%</span><br>  
+ <span class="direct" > Ваша скидка за первое усилие!<br>  Выберите марку, она увеличится!</span> </div></div>
+  </div>
+  <div class="models">
+<div class="sections" >
+				<div id="overlay1" >
+				<input type="button"  value="Выбрать"  class="input-hidden" name="test" onclick="test1(this);buyerclick1() " />
+				</div>
+				<label for="Выбрать" >				
+					<img src="./img/lexus2.png"    width="200px";>
+					<figcaption>GX 470</figcaption>					
+				</label>					
+				</div>			
+			<div class="sections" >
+			<div id="overlay1">
+				<input type="button"  value="Выбрать" class="input-hidden" name="test" onclick="test1(this);buyerclick1() "/></div>
+				<label for="Выбрать">				
+					<img src="./img/lexus3.png"  width="200px">
+					<figcaption>GX 460</figcaption>
+				</label>				
+			</div>
+		</div>	  
+	  </div>	  
+	  	<div id="sectionWrapper1">
+		  <h2  class="uplet capt">lexus</h2>
+	<div class="step2 d-flex flex-row">
+		   <div class="st1 p-2"  ><span class="uplet steps" >шаг 3 </span><br>
+	<span class="direct" >Отлично! Первый шаг пройден!<br> Теперь выберите модель вашего автомобиля:</span></div>
+  <div class="st2 p-2"><div class="icon"><i class="st-fas fas fa-percent"></i></div><div class="text"><span class="uplet sale">скидка 3%</span><br>  
+ <span  class="direct"> Ваша скидка за первое усилие!<br>  Выберите марку, она увеличится!</span> </div></div>
+  </div>
+		  <div class="models">
+			<div class="sections" >
+			<div id="overlay1"  >
+				<input type="button"  value="Выбрать"  class="input-hidden" name="test"  onclick="test1(this);buyerclick2(); " /></div>
+				<label for="Выбрать">				
+					<img src="./img/lex.png"  width="200px">
+					<figcaption>Пневмобалоны</figcaption>
+				</label>			
+			</div>
+			<div class="sections">
+			<div id="overlay1"  onclick="buyerclick2()">
+				<input type="button"  value="Выбрать" class="input-hidden" name="test" onclick="test1(this);buyerclick2(); "/></div>
+				<label for="Выбрать">				
+					<img src="./img/lex1.png"  width="200px">
+					<figcaption>Блоки клапанов</figcaption>
+				</label>				
+			</div>
+			<div class="sections">
+			<div id="overlay1"  onclick="buyerclick2()">
+				<input type="button"  value="Выбрать"  class="input-hidden" name="test" onclick="test1(this);buyerclick2(); "/></div>
+				<label for="Выбрать">
+					<img src="./img/lex2.png"   width="200px">
+					<figcaption>Компрессоры</figcaption>
+				</label>			
+			</div>
+			<div class="sections">
+			<div id="overlay1"  onclick="buyerclick2()">
+				<input type="button"  value="Выбрать"  class="input-hidden" name="test" onclick="test1(this);buyerclick2(); "/></div>
+				<label for="Выбрать">
+					<img src="./img/lex3.png"  width="200px" >
+					<figcaption>Пневмостойки</figcaption>
+				</label>			
+			</div>
+		</div>
+		</div>
+		<div id="displayimg">
+		<div class="step3 d-flex flex-row">
+		 <div class="st4 p-2"> <h2 class="uplet capt1">lexus</h2><br>
+		 <span  class="uplet steps">шаг 4</span><br><br>
+	<span class="direct">С желаниями определились, осталось отправить<br>все это менеджеру! Заполните заявку, получите скидку,<br> а наш менеджер подберет нужную запчасть.</span>
+		 </div>
+		   <div class="st3 p-1"><div class="icon-1"><i class="st-fas fas fa-percent"></i></div><div class="text"><span class="uplet sale">скидка 5%</span><br>  
+ <span class="direct" > Вы делаете удобнее нам,<br>  мы делаем дешевле Вам!</span> </div></div>
+ </div>
+ <div class="form1"  id="frm">
+	 <div class="d-flex flex-column" id="frmspace" >
+  <div class="p-2" id="discount"><div style="display: table-cell;"><span class="badge-count">7%</span></div><div class="count-sale">Для тех, кто быстро <br> принимает решение! </div></div>
+  <div class="p-2"><input name="name" class="ntl2" placeholder="Напишите свое имя" ><br><span class="manager">Чтобы менеджер понимал, как к вам обратиться</span></div>
+  <div class="p-2"><input name="phone" type="tel" class="ntl2" placeholder="Введите номер своего телефона"><br><span class="manager">Чтобы менеджер понимал, как к вам обратиться</span> </div>
+  <div class="p-2"><button class="uplet forms mainbtn" type="submit"  onclick="validatetextbox()">заказать с <span id="percnt">7%</span> скидкой</button><br><span class="manager">Гарантируем конфиденциальность данных </span></div>
+</div>
+<div class="timer"  id="tim"><span>:</span> <span class="minutes">60</span><p id="tleft">секунд<br> до конца<br> акции</p></div>
+</div>
+  <div id="displayimg1">
+  <div class="icon1">
+  <i class="fas fa-plus" id="ic1"></i>
+  </div>
+   <div class="icon2">
+    <i class="fas fa-equals" id="ic2" ></i>
+	</div>
+   </div>
+        </div>	  
+	 <div class="block1">
+	  <a class="anchor"  id="garant"></a>	 
+	 <div class="d-flex flex-column" id="block1">
+  <div class="uplet prg1 p-2">покупая у нас - <br> вы получаете гарантию<br>6 месяцев на все<br> запчасти!</div>
+  <div class="uplet prg2 p-2">для нас важно, чтобы наши клиенты<br> нам доверяли. поэтому мы даем <br>одинаковую гарантию на все наши<br>товары.</div>
+  <div class="prg3 p-2"><div class="t-c"><span class="badge">1</span></div><div class="t-c">Все что нужно это сохранить нужные <br> документы (более подробно уточняйте <br>у менеджера)</div></div>
+   <div class="prg4 p-2"><div class="t-c"><span class="badge">2</span></div><div class="t-c">Отправить на нашу электронную почту <br>mail@mail данные документы с пометкой <br>"Возврат товара по гарантии"</div></div>
+  <div class="prg5 p-2"><div class="t-c"><span class="badge">3</span></div><div class="t-c">Наш менеджер оформит замену на<br> новый товар</div></div>
+  <div class=" p-2"><button class="uplet" id="mainbtn">оформить покупку в 1 клик с гарантией</button></div>
+</div>
+<div class="starburst example" id="example-2"><div class="str">
+<span id="guarantee1">6 мес</span><br>
+<span id="guarantee2"> гарантии</span><br>
+<span id="guarantee3">  на все запчасти</span></div></div>
+	 </div>	 
+	 <div class="block2">
+	  <a class="anchor"  id="block2"> </a>
+	  	 <div class="d-flex flex-column" id="block2">
+  <div class="uplet prg1 p-2">дубликаты с качеством <br> вы получаете гарантию<br> оригинала, но в 3 раза<br> дешевле!</div>
+  <div class="uplet prg2 p-2">не покупаете у официальных<br> дилеров? и правильно. <br>зачем переплачивать за один<br>и тот же товар в разы?</div>
+  <div class="prg3 p-2"><div class="t-c"><span class="badge" style="background:#f2f2f2;">1</span></div><div class="t-c">Так же, как и оригиналы, <br>имеют гарантию 6 месяцев! </div></div>
+   <div class="prg4 p-2"><div class="t-c"><span class="badge" style="background:#f2f2f2;">2</span></div><div class="t-c">Более 3000 единиц товара<br> на складе в наличии!</div></div>
+  <div class="p-2"><button class="uplet blocks  mainbtn">оставить заявку в 1 клик с гарантией</button></div>
+</div>
+	  </div>	  
+	  <div class="block3">
+	  	<a class="anchor"  id="block3">  </a>
+	 <div class="d-flex flex-column" id="block3">
+  <div class="uplet prg1 p-2">оригинальные запчасти<br> прямо из германии<br> по минимальной цене</div>
+  <div class="uplet prg2 p-2">для вас мы делаем самую минимальную<br> цену в россии! найдете кто предложит<br>дешевле на товар того же качества? <br>
+  такого ни разу не было, но если<br> произойдет, то мы привезем еще дешевле</div>
+  <div class="prg3 p-2"><div class="t-c"><span class="badge">1</span></div><div class="t-c">В Германии более 1000 товаров<br> на складе в наличии</div></div>
+   <div class="prg4 p-2"><div class="t-c"><span class="badge">2</span></div><div class="t-c">Так же предоставляем гарантию  <br> 6 месяцев на все</div></div>
+  <div class="prg5 p-2"><div class="t-c"><span class="badge">3</span></div><div class="t-c">Доставка данных товаров в<br> течении 21 дня</div></div>
+  <div class="p-2"><button class="uplet blocks  mainbtn">оформить покупку из германии в 1 клик</button></div>
+</div>
+</div>
+	<div class="main-slider" >
+	<a class="anchor"  id="vin"></a>
+	 <h2 class="uplet main-title1">оформите запрос по вашему vin<br>за одну минуту</h2>
+	  <h5 class="uplet main-title2">мы понимаем, что наши клиенты ценят комфорт при выборе.
+	  <br>оформляя свой заказ по vin,вы сильно упрощаете нам <br> работу, поэтому мы готовы дать вам 
+	  <span style="color:#0066ff">скидку 5%</span><br> уже при оформлении заказа!</h5>
+	 	<form  class="form" data-toggle="validator" role="form">
+		 <input name="email" class="ntl" placeholder="Напишите VIN номера своего авто">
+		 <div class="row justify-content-center" style=" margin-bottom:30px;">
+  <div class="col-sm-3" > <input name="name" class="ntl1" placeholder="Напишите свое имя" required ></div>
+  <div class="col-sm-3"> <input name="phone" type="tel" class="ntl1"  placeholder="Введите номер своего телефона"></div>
+  </div>
+  <button class="uplet blocks  mainbtn" type="submit" onclick="validatetextbox()">оформить заказ по vin за одну минуту</button>
+	 </form>
+	 </div>	 
+	  <div class="block4" >
+	  <a class="anchor"  id="photo"></a>
+	  	 <div class="d-flex flex-column" id="block4">
+  <div class="uplet prg1 p-2">мгновенный<br> подбор запчасти<br>по фотографии!</div>
+  <div class="uplet prg2 p-2">отправьте их удобным для вас<br> способом и наш менеджер мгновенно <br>сориентирует вас по наличию,<br>качеству товара и цене</div>
+  <div class="prg3 p-2"><i class="pay-ic fas fa-mobile-alt"></i> 
+  <i class="pay-ic fab fa-viber"></i>
+  <i class="pay-ic fas fa-comments"></i>
+  <i class="pay-ic far fa-paper-plane"></i></div>
+   <div class="prg1 p-2">+7 (800) 570 00 00</div>
+</div>
+	  </div>  
+	 <div class="block5">
+	  <a class="anchor"  id="payment"></a>
+	 <div class="d-flex flex-column" id="block5">
+  <div class="uplet prg1 p-2">способ оплаты</div>
+  <div class="uplet prg2 p-2">выберете наиболее удобный<br>для вас способ оплаты</div>
+  <div class="prg3 p-2"><div class="icon"><i class="pay-is fas fa-money-check-alt"></i></div><div class="t-c">Перевод на карту Сбербанка <br>0000 0000 0000 0000</div></div>
+   <div class="prg4 p-2"><div class="icon"><i class="pay-is fas fa-money-check"></i></div><div class="t-c">Перевод на карту Альфабанка<br>0000 0000 0000 0000</div></div>
+  <div class="prg5 p-2"><div class="icon"><i class="pr-far far fa-credit-card"></i></div><div class="t-c">Оплата наложенным платежем<br> при получении</div></div>
+<div class="prg5 p-2"><div class="icon" ><i class="pr-fas fas fa-print"></i></div><div class="t-c">Оплата по рассчетному счету</div></div>
+</div>
+ <div class="row" id="paym">
+  <div class="col-sm" id="paym-col" ><div class="cent"><i class="doc-fas fas fa-download"></i><br> <a href="#" class="uplet docs" >скачать реквизиты</a></div></div>
+  <div class="col-sm"><div class="cent"><i class="doc-fas fas fa-download"></i><br><a href="#" class="uplet docs">скачать реквизиты</a></div> </div>
+  </div>
+</div>
+<div class="block6">
+ <a class="anchor"  id="shipping"></a>
+	  	 <div class="d-flex flex-column" id="block6">
+  <div class="uplet prg1 p-2">доставка наших<br>товаров до 7 дней</div>
+  <div class="uplet prg2 p-2">мы используем лучшие транспортные<br> компании для отправки блоков клапанов, <br>пневмобалонов, компрессоров ,<br>пневмостоек!</div>
+  <div class="prg3 p-2"><i class="pay-ic fas fa-mobile-alt"></i> 
+  <i class="pay-ic fab fa-viber"></i>
+ </div>
+ <div class="prg4 p-2"><div class="t-c"><span class="badge">1</span></div>
+ <div class="t-c" >В момент отправки товара на ваш телефон придет sms <br> с номером накладной и транспортной</div></div>
+ <button class="uplet mainbtn" style="margin-top:30px;">подобрать самый экономный способ доставки</button>
+</div>
+	  </div>
+<div class="main-slider1">
+ <a class="anchor"  id="partnership"></a>
+   <div class="layer">
+	 <h2 class="uplet main-title1">вы занимаетесь ремонтом <br>пневматических систем?</h2>
+	  <h5 class="uplet main-title2">станьте нашим партнером и зарабатывайте с каждой 
+	  <br>продажи блока клапана, пневмобалона, пневмостойки!</h5>
+	 	 <div class="row justify-content-around" id="advant">
+  <div class="cent col-sm-3"><i class="cent-fas fas fa-tags"></i><p class="pluses">
+Очень низкие закупочные цены <br> и большок к-во запчастей <br> для оптовых закупок</p></div>
+  <div class="cent col-sm-3"><i class="cent-fas far fa-handshake"></i>
+  <p class="pluses">Для наших партнеров<br> мы также даем гарантию<br> 6 месяцев</p></div>
+  <div class="cent col-sm-3"><i class="cent-fas fas fa-shipping-fast"></i>
+  <p class="pluses">Доставка данных запчатей <br>  в течении 21 дня, отправка в<br> течении 24 часов</p></div>
+</div>
+		<form action="mail.php" method="POST" class="form" >
+		 <div class="row justify-content-center" style=" margin-bottom:30px;">
+		   <div class="col-sm-3" > <input name="email" class="ntl1" placeholder="Напишите Ваш mail"></div>
+  <div class="col-sm-3" > <input name="name" class="ntl1" placeholder="Напишите свое имя"></div>
+  <div class="col-sm-3"> <input name="phone" type="tel"  class="ntl1"  placeholder="Введите номер своего телефона"></div>
+  </div>
+  <button class="uplet blocks  mainbtn" type="submit">получить оптовый прайс лист</button>
+  <p>Гарантируем конфиденциальность данных!</p>
+	 </form>
+	  </div>
+	 </div> 
+	 <div class="block7">
+	  <a class="anchor"  id="contacts"></a>
+	 <div class="d-flex flex-column" id="block7">
+  <div class="uplet prg1 p-2">контакты нашего <br>представительства<br> в томске</div>
+  <div class="prg2 p-2">8(800) 768 00 00</div>
+  <div class="prg3 p-2"><div class="gimg"><span class="badge" style="background:#f2f2f2;"><i class="cont-fas fas fa-map-marker-alt"></i></span></div><div class="text">Томск, улица Мира,1</div></div>
+   <div class="prg4 p-2"><div class="gimg"><span class="badge" style="background:#f2f2f2;"><i class="cont-fas fas fa-envelope"></i></span></div><div class="text">sparkauto@info.ru</div></div>
+  <div class="prg5 p-2"><div class="gimg"><span class="badge" style="background:#f2f2f2;"><i class="cont-fas fas fa-clock"></i></span></div><div class="text">Работаем каждый день с 10:00 до 19:00</div></div>
+</div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2206.114804674969!2d85.02440241551864!3d56.43132034692352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4326ed1b760005dd%3A0x91dc54dead983d8f!2z0YPQuy4g0JzQuNGA0LAsIDEsINCi0L7QvNGB0LosINCi0L7QvNGB0LrQsNGPLCA2MzQ1MDc!5e0!3m2!1sru!2sru!4v1539067086076" 
+id="g-map"
+  width="650" 
+   height="500"    frameborder="0" allowfullscreen></iframe>
+	 </div>
+	 <div class="d-flex flex-row justify-content-around" style="background-color:#001a33; ">
+		   <div class="p-4" ><h1 class="uplet logo" style="float:none;"><span style="color:#fff;">spark</span><span style="color:#0066ff;">auto</span></h1>
+<p class="wraps">Полный спектр пневматики для авто<br> с отправкой в течении 24 часов<br> по всей России</p>
+		   </div>
+  <div class="p-4" > 
+  <h1 class="logo"><span style="color:#fff;">8(800) 768 00 00</span></h1>
+  <p class="wraps" style="color:#fff;">ИНН: 3405704867034</p>
+  <p style="color:#fff;">ОГРН: 32974620357</p>
+  <a href = "#" style="text-decoration:underline; color:#808080;">Политика конфиденциальности</a>
+  </div>
+  <div class="p-4" style="margin-top:18px;"> 
+  <img src="./img/logo-atk.png" style="padding-bottom:8px;">
+ <p style="color:#fff;"> Разработка сайта<br>- АТК agency</p>
+  </div>
+  </div> 
+<div id="myModal" class="modal" >
+  <div class="modal-content">
+    <div class="closer" onclick="popupclose()">&times;</div>
+	
+	 <div class="form1">
+	 <div class="pop-box d-flex flex-column">
+	 <div class="p-2" style="font-family:Geometria-Medium; color:#00284d;">Оставьте заявку на дубликат и наш<br> менеджер поможет подобрать<br> оптимальные запчасти максимально<br> быстро по лучшей цене</div>
+  <div class="p-2" ><input name="name" class="ntl2" placeholder="Напишите свое имя" style="border:none" ><br><span class="manager">Чтобы менеджер понимал, как к вам обратиться</span></div>
+  <div class="p-2" style=" "><input name="phone" class="ntl2" placeholder="Введите номер своего телефона" style="border:none"><br><span class="manager">Чтобы менеджер понимал, как к вам обратиться</span> </div>
+  <div class="p-2"><button class="uplet blocks mainbtn">получить запчасти с гарантией</button><br><span class="manager">Гарантируем конфиденциальность данных </span></div>
+</div>
+</div>
+<div class="starburst example" id="example"><div class="str">
+<span id="guarantee1">6 мес</span><br>
+<span id="guarantee2"> гарантии</span><br>
+<span id="guarantee3">  на все запчасти</span></div></div>
+  </div>
+</div>
+<div class='scrolltops'>
+    <div class='scrolls iconsa'><i class="fa fa-4x fa-angle-up"></i></div>
+</div>
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/3.3.4/dependencyLibs/inputmask.dependencyLib.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/3.3.4/inputmask/inputmask.min.js"></script>
+	 <script>
+	 var slick = $('.slick-slider');
+var setting = {
+  dots: true,
+  arrows: true,
+  infinite: true,
+  speed: 0,
+  slidesToShow: 4,
+  slidesToScroll: 4,
+  responsive: [
+    {
+      breakpoint: 550,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true
+      }
+	 
+    },	
+	   {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        infinite: true,
+        dots: true
+      }
+	 
+    }, 
+  ]
+}
+
+slick.slick(setting);
+$(window).on('load', function(){
+  slickGoToActive()
+});
+$(window).on('resize', function(){
+  slick.on('setPosition', function(event, slick, currentSlide, nextSlide){
+    slickGoToActive()
+  });
+});
+function slickGoToActive() {
+  var slick = $('.slick-slider'),
+      activeItem = slick.find('.active1'),
+      activeNum = activeItem.attr('data-slick-index');
+  console.log(activeNum);
+  slick.slick('slickGoTo', activeNum);
+}
+	 </script> 
+	 <script>
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var dropdownContent = this.nextElementSibling;
+    if (dropdownContent.style.display === "block") {
+      dropdownContent.style.display = "none";
+    } else {
+      dropdownContent.style.display = "block";
+    }
+  });
+}
+</script>
+ <script>
+function buyerclick() {
+    div = document.getElementById('buyer_form');
+    div.style.display = "block";
+var elem = document.getElementsByClassName('main-slider')[0];
+ elem.parentNode.removeChild(elem);
+}
+var t = document.querySelector('h2').textContent;
+function buyerclick1() {
+    div = document.getElementById('sectionWrapper1');
+    div.style.display = "block";
+var elem = document.getElementById('buyer_form');
+ elem.parentNode.removeChild(elem);
+ 
+   var h2El = document.querySelector('h2');
+  h2El.textContent = t;
+  var caption = el.children[1].textContent;
+  h2El.textContent += ' >> ' + caption;
+}
+	function buyerclick2() {
+    div = document.getElementById('displayimg');
+    div.style.display = "block";
+var elem = document.getElementById('sectionWrapper1');
+ elem.parentNode.removeChild(elem);
+var time = 60;
+window.setInterval(test, 1000);
+function test()
+{
+             time -=1;
+    $('.minutes').html(time); 
+
+if(time == 0)        
+{
+    $('#discount').empty();
+	  $('.timer').remove();
+	   $('#percnt').replaceWith( "5%" );
+}
+}
+}
+function test1(dhis){
+  var div = document.getElementById('displayimg1');
+  var val=dhis.closest(".sections").querySelector('img');
+  div.innerHTML +=' <img src="' + val.src + '">'
+}
+ </script>
+ <script>
+ var modal = document.getElementById('myModal');
+var btn = document.getElementById("mainbtn");
+var span = document.getElementsByClassName("closer")[0];
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+span.onclick = function() {
+    modal.style.display = "none";
+}
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+		 $('body').css('overflow', ''); 
+    }
+}
+ </script>
+ <script>
+var inputsTel = document.querySelectorAll('input[type="tel"]');
+Inputmask({
+  "mask": "+7(999) 999-99-99",
+  showMaskOnHover: false
+}).mask(inputsTel);
+ </script>
+ <script>
+     function validatetextbox()
+    {
+      var txtval = $(".ntl1, .ntl, .ntl2").val();
+      if (txtval == "") {
+          $(".ntl1, .ntl, .ntl2").css("border", "2px solid red");
+      }
+      else
+     {
+         $(".ntl1, .ntl, .ntl2").css("border", "2px solid black");
+     }
+    }
+ 
+ </script>
+ <script>
+$(document).on('click', '.lines', function(){
+  $(this).toggleClass('on');
+  $('.overlay-content1').slideToggle();
+  return false; 
+});
+</script>
+  <script>
+$(document).ready(function() {
+  $(window).bind('scroll', function() {
+    if($(window).scrollTop() > 135){
+      $('nav').addClass('fixed');
+      $('.containers').css('padding-top', '90px');
+    }else{
+      $('nav').removeClass('fixed');
+      $('.containers').css('padding-top', '0px');
+    }
+  })
+});
+</script>
+ <script>
+ $(document).ready(function () {
+     $("button#mainbtn").click(function (){
+         $('body').css('overflow', 'hidden');  
+     });
+     $(document).on('click', '.closer',  function (){
+         $('body').css('overflow', ''); 
+     });
+ });
+</script>
+ <script>
+$(window).scroll(function() {
+    if ($(this).scrollTop() > 50 ) {
+        $('.scrolltops:hidden').stop(true, true).fadeIn();
+    } else {
+        $('.scrolltops').stop(true, true).fadeOut();
+    }
+});
+$(function(){$(".scrolls").click(function(){$("html,body").animate({scrollTop:$(".thetop").offset().top},"1000");return false})})
+
+</script>
+	  </body>
+	 </html>
